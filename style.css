@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 13px;
+    font-family: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: auto 3fr auto auto auto auto auto;
+    grid-template-rows: auto;
+}
+
+.navbar-items {
+    margin: 10px;
+}
+
+#products-icon {
+    height: 15px;
+    width: 15px;
+}
+
+#sign-in-button {
+    margin-top: 4px;
+    padding: 5px 10px 5px 10px;
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#sign-in-button:hover {
+    cursor: default;
+}
+
+#sign-in-button:focus {
+    background-color: #2170f0;
+}
+
+#main-stuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#google-logo {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    height: 92px;
+    width: 272px;
+}
+
+#search-bar {
+    height: 45px;
+    width: 485px;
+    margin: 20px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+    outline: none;
+}
+
+#search-bar:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+#search-bar:focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+#search-field {
+    height: 40px;
+    width: 410px;
+    font-size: 16px;
+    font-family: inherit;
+    color: rgba(0, 0, 0, 0.87);
+    border: none;
+    outline: none;
+}
+
+#magnifier-icon {
+    height: 24px;
+    width: 28px;
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+
+#mic-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 7px;
+}
+
+.search-buttons {
+    height: 36px;
+    margin: 20px 4px;
+    padding: 0 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.search-buttons:hover {
+    color: black;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid #c2c2c2;
+}
+
+.search-buttons:focus {
+    border: 1px solid #4885ed;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: auto auto 3fr auto auto auto auto;
+    grid-template-rows: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid #d1d0d0;
+}
+
+.footer-items {
+    margin: 16px;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: inherit;
+    color: #424242;
+}
